@@ -23,8 +23,8 @@ To run the Cat-Dog UI App locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone [URL to your repository]
-   cd [repository name]
+   git clone [https://github.com/jisshub/cat-dog-ui-app](https://github.com/jisshub/cat-dog-ui-app)
+   cd [cat-dog-ui-app]
    ```
 
 2. Install the dependencies:
@@ -38,15 +38,6 @@ To run the Cat-Dog UI App locally, follow these steps:
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Contributing
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
