@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export default function AnimalSelector() {
   const [animal, setAnimal] = useState('');
-  const [factOrImageUrl, setFactOrImageUrl] = useState(''); // Separate state for data
+  const [factOrImageUrl, setFactOrImageUrl] = useState('');
 
   const handleSubmit = async (event: { preventDefault: () => void; }) => {
     event.preventDefault();
@@ -34,9 +34,9 @@ export default function AnimalSelector() {
       
       {factOrImageUrl && (
         animal === 'cat' ? (
-          <p>{factOrImageUrl}</p> // Display cat fact
+          <p>{factOrImageUrl}</p>
         ) : (
-          <img src={factOrImageUrl} alt="Random Dog" /> // Display dog image
+          <img src={factOrImageUrl} alt="Random Dog" />
         )
       )}
     </div>
