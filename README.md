@@ -23,9 +23,9 @@ To run the Cat-Dog UI App locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/jisshub/cat-dog-ui-app](https://github.com/jisshub/cat-dog-ui-app)
-   cd [cat-dog-ui-app]
-   ```
+    git clone https://github.com/jisshub/cat-dog-ui-app
+    cd cat-dog-ui-app
+    ```
 
 2. Install the dependencies:
    ```bash
